@@ -1,6 +1,6 @@
 from typing import List
 
-from qdrant_client import models
+from qdrant_client.http import models
 from qdrant_client.client_base import QdrantBase
 from qdrant_client.local import datetime_utils
 from tests.congruence_tests.test_common import (

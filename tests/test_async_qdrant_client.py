@@ -10,7 +10,7 @@ import pytest
 import qdrant_client.http.exceptions
 from qdrant_client import QdrantClient
 from qdrant_client import grpc as qdrant_grpc
-from qdrant_client import models
+from qdrant_client.http import models as rest_models
 from qdrant_client.http import models as rest_models
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.conversions.conversion import payload_to_grpc
